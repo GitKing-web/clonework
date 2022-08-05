@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap</title>
+<link  rel="stylesheet" href="/storage/emulated/0/UI_design/icons/icon/css/all.min.css">
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+   padding: 10px;
+   background-color: #fff;
+}
+.container{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 0.45px solid #000;
+     padding: 15px;
+     font-size: 20px;
+     background-color: #fff;
+}
+.tabs{
+     width: 15%;
+     display: flex;
+     justify-content: space-between;
+}
+
+body{
+    background-color: #ddd;
+}
+.profile-image{
+     width: 15%;
+     height: 15%;
+     border-radius: 100%;
+     border: 1px solid green;
+     margin-top: 1em;
+}
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.45px solid #000;
+    padding: 5px;
+    background-color: #fff;
+}
+input{
+    height: 40px;
+    padding: 3px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+.test{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+}
+.ii{
+    font-size: 20px;
+}
+.stuff{
+  display: flex;
+    justify-content: space-around;
+ border-bottom: 0.8px solid #000;
+   height: 40px;
+   width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.divider{ 
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30px;
+width: 95px;
+ border-right: .45px solid #000;
+}
+.story{
+     margin-top: 8px;
+     display: flex;
+     background-color: #fff;
+     height: 195px;
+     overflow-x: auto;
+}
+.story1{
+    border: .45px solid #000;
+    height: 180px;
+    background-color: green;
+    width: 50%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px;
+    margin-top: 8px;
+}
+.story-image{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     opacity: .7;
+}
+.card{
+      margin-top: 10px;
+}
+.post-card{
+      border: .45px solid black;
+      height: 540px;
+      background-color: #fff;
+}
+.userpost-image{
+     width: 54px;
+     height: 54px;
+     border-radius: 100%;
+     border: 1px solid green;
+     margin-top: 10px;
+}
+.post-head{
+      display: flex;
+      justify-content: space-between;
+}
+.image-name{
+     display: flex;
+     align-items: center;
+}
+.post-menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 70px;
+      margin-top: 0px;
+}
+.buttons{
+       display: flex;
+       width: 100%;
+       justify-content: space-between;
+       height: 40px;
+ }
+ button{
+   width: 40%;
+   height: 100%;
+   border: none;
+   border-radius: 30px;
+ }
+</style>
+</head>
+ <body>
+ <div class="logo">
+      <h3>textyfy</h3>
+      <div class="tabs">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-bars"></i>
+      </div>
+ </div>
+
+ <div class="container">
+     <i class="fas fa-home" ></i>
+     <i class="fas fa-users"></i>
+     <i class="fas fa-comment"></i>
+       <i class="fas fa-video"></i>
+     <i class="fas fa-bell"></i>  
+     </div>
+  <div class="field">   
+     <img class="profile-image" src="/storage/emulated/0/Pictures/facebook/1637790078715.jpg">
+     <input type="text" placeholder="what's on your mind">
+     <div class="test">
+     <i class="fas fa-images ii"></i>
+     <p style="font-size: 10px">Photo </p>
+     </div>
+  </div>
+  <div class="stuff">
+     <div class="divider">
+     <i class="fas fa-book" >Text</i>
+     </div>
+     <div class="divider">
+     <i class="fas fa-images">Photo</i>
+     </div>
+     <div>
+      <i class="fas fa-map-marker">Location</i>
+     </div>
+  </div>
+  <div class="story">
+      <div class="story1">
+          <img class="story-image" src="/storage/emulated/0/Pictures/facebook/1637790078715.jpg">
+      </div>
+      <div class="story1">
+      <img class="story-image" src="/storage/emulated/0/Pictures/Screenshot/Screenshot_20220802-233655.png">
+      </div>
+      <div class ="story1">
+      <img class="story-image" src="/storage/emulated/0/Pictures/Screenshot/Screenshot_20220722-093753.png">
+      </div>
+      <div class="story1">
+      <img class="story-image" src="/storage/emulated/0/DCIM/Camera/IMG_20220714_190153_898.jpg">
+      </div>
+      <!--
+      <div class="story1">
+      <img class="story-image" src="/storage/emulated/0/Pictures/facebook/1637790078715.jpg">
+      </div>
+      --> 
+  </div>
+  <div class="card">
+        <div class="post-card">
+                   <div class="post-head">
+                          <div class="image-name">
+            <img  class="userpost-image" src="/storage/emulated/0/Pictures/facebook/1637790078715.jpg">
+             </div>
+                     <div style="display: flex; flex-direction: column;
+                                              margin-top:12px; margin-right: 137px;">
+             <h5>Already Dead</h5>
+             <span style="font-size: 10px">just now•<i class="fas fa-globe"></i></span>
+                              </div>
+                   <div class="post-menu">
+             <span><i class="fas fa-ellipsis-h"></i></span>
+             <p><i class="fas fa-times"></i></p>
+                    </div>
+                     </div>
+                     <div class="caption">
+                     <p style="margin-left:60px">This is a post</p>     
+                        </div>
+                   <div class="post">
+                   <img style="width: 100%; height: 380px; margin-top: 10px;" src=" /storage/emulated/0/Download/Billie Eilish - Happier Than Ever/[0]image.jpg">
+                   <p></p>     
+                      <div>
+                         <p><i  style="color: skyblue" class="fas fa-thumbs-up"></i><i  style="color: red"class="fas fa-heart"></i>You and 34 others</p>   
+                          </div>
+                          </div>
+                          <div class="buttons">
+                          <button><i  style="color: skyblue" class="fas fa-thumbs-up">(40)</i></button>
+                          <button><i class="fas fa-comment">(2)</i></button>
+                          <button><i  class="fas fa-share">(4)</i></button>
+                          </div>
+        </div>
+        <div class="post-card">
+        </div>
+        <div class="post-card">
+        </div>
+  </div>
+</body>
+</html> 
